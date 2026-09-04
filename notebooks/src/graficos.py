@@ -19,7 +19,7 @@ def plot_coeficientes(df_coeficientes, titulo="Coeficientes"):
 def plot_residuos(y_true, y_pred):
     residuos = y_true - y_pred
 
-    fig, axs = plt.subplots(1, 3, figsize=(12, 6))
+    fig, axs = plt.subplots(1, 3, figsize=(12, 5))
 
     h = sns.histplot(residuos, kde=True, ax=axs[0])
 

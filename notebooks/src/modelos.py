@@ -1,3 +1,4 @@
+#voltado a treinar e comprar modelos
 import pandas as pd
 
 from sklearn.compose import TransformedTargetRegressor
